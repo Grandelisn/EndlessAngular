@@ -20,7 +20,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 If you get this error 
+
 Screen Shot 2021-06-22 at 10.44.23 PM<img width="971" alt="Screen Shot 2021-06-22 at 10 44 23 PM" src="https://user-images.githubusercontent.com/71465617/123027265-8938c700-d3ab-11eb-9d50-d96660bc8f5e.png">
+
 Run `npm install --save-dev @angular-devkit/build-angular`
 
 ## Code scaffolding
