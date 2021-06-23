@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
+//This creates a modular component that displays list items
 @Component({
   selector: 'app-item-list',
   templateUrl: './item-list.component.html',

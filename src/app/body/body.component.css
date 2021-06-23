@@ -12,7 +12,6 @@
     background-position: 50%;
     min-height: 50vh;
 }
-
 .content > * {
     margin-bottom:1rem;
 }
@@ -26,6 +25,7 @@
 .content h2 {
     font-size: 4rem;
 }
+/*Adds a hover animation to the get started button*/
 button:hover{
     background-color: #b8f6f8;
     transform: translateY(-.5rem);
@@ -45,10 +45,7 @@ button{
     
 }
 @media(max-width:1300px){
-    .main-container{
-        padding-top:40%;
-        padding-bottom:40%;
-    }
+    
     .content > * {
         margin-bottom:1rem;
     }

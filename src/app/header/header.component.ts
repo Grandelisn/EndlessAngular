@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
+  //importing logo image for header
   public imgurl = "assets/logo-endless.svg";
   constructor() { }
 
