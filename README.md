@@ -3,6 +3,8 @@
 Welcome to my Project!
 Everything was developed using the vanilla angular cli and good old HTML, CSS, and Typescript.
 
+The webpage is hosted at https://endless-singlestone.netlify.app/
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c1151d4c-a4e2-4a91-968a-d2183692fd23/deploy-status)](https://app.netlify.com/sites/endless-singlestone/deploys)
 Everything on the page is responsive with breakpoints at 1300px width, and 800px width for compatability.
 In styles.css I included css for a stealth scroll bar for a clean ui.
 As a showcase of accessibility I also included a media query that removes any transitions or animations and is used to detect if the user has requested that the system minimize the amount of non-essential motion it uses
