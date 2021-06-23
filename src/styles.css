@@ -49,3 +49,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Remove all animations and transitions for people that prefer not to see them */
+@media(prefers-reduced-motion: reduce) {
+	* {
+	  animation-duration: 0.01ms !important;
+	  animation-iteration-count: 1 !important;
+	  transition-duration: 0.01ms !important;
+	  scroll-behavior: auto !important;
+	}
+  }
+  body::-webkit-scrollbar {
+	display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+  }

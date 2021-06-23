@@ -1,7 +1,28 @@
 .footer{
-    background-color: white;
-    display: flex;
+    display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items:center;
+    text-align:center;
+    color:#2f3237;
+    background-color: white;
+    min-height: 20vh;
+    padding-bottom: 5rem;
+  
+}
+.how-it-works{
+    margin-top:1rem;
+    max-width: 80%;
+}
+.footer h2{
+    font-size: 3rem;
+}
+ul{
+    padding: 0;
+}
+@media(min-width:800px){
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
