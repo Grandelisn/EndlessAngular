@@ -1,6 +1,15 @@
 # Endless
 
+Welcome to my Project!
+Everything was developed using the vanilla angular cli and good old HTML, CSS, and Typescript.
+
+Everything on the page is responsive with breakpoints at 1300px width, and 800px width for compatability.
+In styles.css I included css for a stealth scroll bar for a clean ui.
+As a showcase of accessibility I also included a media query that removes any transitions or animations and is used to detect if the user has requested that the system minimize the amount of non-essential motion it uses
+
+Other possible accessibility features could be a theme toggle for colorblind users.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
+
 
 ## Development server
 
