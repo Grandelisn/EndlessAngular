@@ -1,11 +1,10 @@
 <div class = "footer">
     <div class = "how-it-works">
-    <h2>How It Works</h2>
-    <ul>
-        <app-item-list *ngFor="let list of listItems" 
-            [stepNumber] = "list.stepNumber" [title] = "list.versionContent[0].title" 
-            [body] = "list.versionContent[0].body"></app-item-list>
-        
-    </ul>
-</div>
+        <h2>How It Works</h2>
+        <ul>
+            <app-item-list *ngFor="let list of listItems" 
+                [stepNumber] = "list.stepNumber" [title] = "list.versionContent[0].title" 
+                [body] = "list.versionContent[0].body"></app-item-list> 
+        </ul>
+    </div>
 </div>

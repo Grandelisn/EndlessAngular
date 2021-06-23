@@ -58,6 +58,7 @@ table {
 	  scroll-behavior: auto !important;
 	}
   }
+  /*Stealth scrollbar for a clean ui*/
   body::-webkit-scrollbar {
 	display: none;
   }

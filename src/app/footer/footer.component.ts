@@ -21,18 +21,12 @@ export class FooterComponent implements OnInit {
     console.log(sortedArr);
     return sortedArr;
   }
-  
   ngOnInit() {
-
-
     this.http.get("https://uqnzta2geb.execute-api.us-east-1.amazonaws.com/default/FrontEndCodeChallenge").subscribe(res => {
 
       this.listItems = this.stepSort(res);
       console.log(res);
       return this.listItems;
     })
-
-
   }
-
 }
